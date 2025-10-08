@@ -15,9 +15,8 @@
 <body>
 
 <?php
-    // header and footer inclusions
-    include "header.inc"
-    include "footer.inc"
+    // header inclusions
+    include "header.inc";
 ?>
     <!--Form for Password and Username; Data sent to process.php-->
     <form id="username" method="POST" action="process.php">
@@ -38,4 +37,10 @@
         <input type="hidden" name="secretpass" value="Nam104555355">
         <input type="submit" value="Login">
     </form>
+
+<?php
+    // footer inclusions
+    include "footer.inc";
+?>
+
 </body>

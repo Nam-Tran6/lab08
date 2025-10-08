@@ -18,6 +18,6 @@
         header("Location:welcome.php");
     } else {
         // Else sends an error message for retry
-        echo "Invalid login. <a href='login.html'>Try again</a>";
+        echo "Invalid login. <a href='login.php'>Try again</a>";
     }
 ?>

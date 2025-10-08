@@ -15,7 +15,7 @@
 <body>
 <?php
     // includes header file
-    include "header.inc"
+    include "header.inc";
 
     // Starts session on Welcome page, allowing for consistent data
     session_start();
@@ -25,11 +25,11 @@
     echo " Welcome, " . $_SESSION ['user'];
     // Else return back to the header
     } else {
-    header('Location: login.html');
+    header('Location: login.php');
     }
 
     // includes footer file
-    include "footer.inc"
+    include "footer.inc";
 ?>    
 
 </body>
