@@ -8,7 +8,7 @@
 
     //Records hidden values for comparisons
     $secretname = $_POST["secretname"];
-    $secretpass = $_POST["secretvalue"];
+    $secretvalue = $_POST["secretpass"];
 
     if ($username == $secretname && $password == $secretvalue) {
         $_SESSION["user"] = $username;
