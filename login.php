@@ -13,6 +13,12 @@
 </head>
 
 <body>
+
+<?php
+    // header and footer inclusions
+    include "header.inc"
+    include "footer.inc"
+?>
     <!--Form for Password and Username; Data sent to process.php-->
     <form id="username" method="POST" action="process.php">
         <!--Label/Input for Username-->

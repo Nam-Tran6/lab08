@@ -10,10 +10,14 @@
     $secretname = $_POST["secretname"];
     $secretvalue = $_POST["secretpass"];
 
+    //verifies if inputted data matches secret data
     if ($username == $secretname && $password == $secretvalue) {
+        // Saves a universal user data for username inputted
         $_SESSION["user"] = $username;
+        // Heads to welcome.php
         header("Location:welcome.php");
     } else {
+        // Else sends an error message for retry
         echo "Invalid login. <a href='login.html'>Try again</a>";
     }
 ?>
