@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!--Title-->
+	<title>Login Page</title>
+
+    <!--Meta Tags-->
+	<meta charset="utf-8">
+	<meta name="description" content="Login Page for Username, Password" >
+	<meta name="keywords"    content="Login, Username, Password" >
+	<meta name="author"      content="Kha Nam Tran" />
+</head>
+
+<body>
+    <!--Form for Password and Username; Data sent to process.php-->
+    <form id="username" method="POST" action="process.php">
+        <!--Label/Input for Username-->
+        <label for="username">Username:</label>
+        <input type="text" name="username" required>
+
+        <br>
+
+        <!--Label/Input for Password-->
+        <label for="password">Password:</label>
+        <input type="text" name="password" required>
+
+        <!--Hidden token with Name for verification-->
+        <input type="hidden" name="token" value="Nam104555355">
+        <input type="submit" value="Login">
+    </form>
+</body>
