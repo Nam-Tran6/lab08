@@ -9,7 +9,7 @@
 	<meta charset="utf-8">
 	<meta name="description" content="Login Page for Username, Password" >
 	<meta name="keywords"    content="Login, Username, Password" >
-	<meta name="author"      content="Kha Nam Tran" />
+	<meta name="author"      content="Kha Nam Tran" >
 </head>
 
 <body>
@@ -19,16 +19,16 @@
     include "header.inc";
 ?>
     <!--Form for Password and Username; Data sent to process.php-->
-    <form id="username" method="POST" action="process.php">
+    <form method="POST" action="process.php">
         <!--Label/Input for Username-->
         <label for="username">Username:</label>
-        <input type="text" name="username" required>
+        <input type="text" id="username" name="name" required>
 
         <br>
 
         <!--Label/Input for Password-->
-        <label for="password">Password:</label>
-        <input type="text" name="password" required>
+        <label for ="password">Password:</label>
+        <input type="text" id= "password" name="security" required>
 
         <br>
 

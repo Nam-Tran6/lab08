@@ -9,7 +9,7 @@
 	<meta charset="utf-8">
 	<meta name="description" content="Welcome Page for User" >
 	<meta name="keywords"    content="Welcome, User" >
-	<meta name="author"      content="Kha Nam Tran" />
+	<meta name="author"      content="Kha Nam Tran" >
 </head>
 
 <body>

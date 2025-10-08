@@ -2,9 +2,9 @@
     // Sets up the Database
     session_start();
     //Records inputted username for PHP
-    $username = $_POST["username"];
+    $username = $_POST["name"];
     //Records inputted password for PHP
-    $password = $_POST["password"];
+    $password = $_POST["security"];
 
     //Records hidden values for comparisons
     $secretname = $_POST["secretname"];
