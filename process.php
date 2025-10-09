@@ -1,6 +1,8 @@
 <?php
     // Sets up the Database
     session_start();
+
+    if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     //Records inputted username for PHP
     $username = $_POST["name"];
     //Records inputted password for PHP
@@ -20,4 +22,9 @@
         // Else sends an error message for retry
         echo "Invalid login. <a href='login.php'>Try again</a>";
     }
+
+    else{header("Location:login.php");}   
+    }
+    
+
 ?>
